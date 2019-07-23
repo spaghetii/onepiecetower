@@ -1,0 +1,70 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 0.85em;
+     font-weight: bold;
+     font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+ }
+
+ #left_div {
+     background-color: rgb(95, 183, 255);
+     background-image: url("../img/foreign_parts_left.png");
+     width: 50%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: 30px -30px;
+     position: fixed;
+ }
+
+ #right_div {
+     position: absolute;
+     left: 50%;
+
+     /* 也可用margin-left: 50%;*/
+     background-image: url("img/bg_dot.jpg");
+ }
+
+ #right_div_inside {
+     padding: 50px 50px 50px 100px;
+ }
+
+ #ticket:hover {
+     opacity: 0.5;
+ }
+
+ #right_div img {
+     display: block;
+     margin: auto;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ h6 {
+     line-height: 1mm;
+ }
+
+ table {
+     border: 1px solid purple;
+     background-color: purple;
+     width: 600px;
+ }
+
+ tr {
+     border-bottom: 1px solid purple;
+ }
+
+ tr:first-child {
+     background-color: aqua;
+ }
+
+ tr:not(:first-child) {
+     background-color: white;
+ }
+
+ td {
+     border-right: 1px solid purple;
+     padding: 15px;
+     text-align: center;
+ }
